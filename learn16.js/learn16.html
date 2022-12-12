@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn16.js</title>
+    <!--<script src="learn16.js"></script>  -->
+</head>
+<body>
+    <h1 id="h1"></h1>
+    <h2 id="h2">body h2 Welcome to inner. HTML & Text chanager coding</h2>
+    <h3 id="h3">body h3 2022 - id=h3</h3>
+    <h4 id="h4">body h4 id=h4</h4>
+    <h5 id="h5">body h5 Welcome To learn inner.html and .Text website</h5>
+    
+    <script>
+       // learn16.js | innerHTML&Text(js)
+      //------------------------------------------------
+    /* =================================================
+      // The innerHTML property sets or returns the HTML 
+          content (inner HTML) of an element.
+        // & to replace - inject text - ]  
+        # Return the innerHTML property:
+           element.innerHTML =
+        # Set the innerHTML property:
+           element.innerHTML = 'your text'; for code and text.
+           element.innerText = 'yor text'; for text only.
+       -------------------------------------------------------
+     */ // E X A M P L E S //---------------------------------
+    //========================================================
+       // set the text by .innerHTML= 'text';
+       // to h1 see body above..
+       document.getElementById('h1').innerHTML='h1- lets learn js 2022';
+       document.getElementById('h4').innerHTML='<h1>h4 to h1.HTML- lets learn js 2022<h1>';
+       //----------------------------------------------------------------------------------
+         //document.getElementById('h2').innerHTML=''; // add null;
+        //document.getElementById('h2').innerText=' '; // add null;
+       //document.getElementById('h2').innerText='h2- changed by ADMIN.innerText';
+       document.getElementById('h5').innerText='<h1>h5 to h1.HTML- lets learn js 2022<h1>';
+         alert(h4.outerHTML); // to get all history of edit .... etc.
+         alert(h4.innerHTML); // to get last history of edit.
+         alert(h3.innerText); // display contents.
+    //=====================================================================================   
+    </script>
+</body>
+</html>
