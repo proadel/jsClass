@@ -1,7 +1,7 @@
 // learn13.js | +stringCases.js 
         //-------------------------------------------
         // to make good UserFrindly pages Experiances
-        // +TEXT : print functions and methods:
+        // +TEXT : print functions and methods:::::::
         //=====================
         //document.write();
         //=====================
