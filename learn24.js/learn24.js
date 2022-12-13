@@ -6,7 +6,11 @@
 // prompt
 //var name = prompt('Enter Your Name:');
 //document.write(`Welcome :${name}`);
-//-------------------------------------
+//var num1 = Number(prompt('Enter First Number :'));
+//var num2 = Number(prompt('Enter Second Number :'));
+//var res = num1 + num2;
+//document.write(res);
+//--------------------------------------------------------
 // confirm
 var Q = confirm('is it my learns files  of JS?');
 if (Q == true){
@@ -15,3 +19,4 @@ if (Q == true){
 if (Q == false){
     document.write('Please re-check our Services!!');
 }
+//--------------------------------------------------------
