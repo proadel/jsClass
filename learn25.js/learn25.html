@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn25.js</title>
+    <!--<script src="learn25.js"></script> -->
+</head>
+<body>
+   
+    <button onclick="onclk();">learn1</button>
+    <button ondblclick="ondclk();">learn2</button>
+    <h2 id="h2" onmouseover="onmosovr();" onmouseout="onmoseout2();">Lets learn js 2022</h2>
+    <h3 id="h3" onmouseout="onmoseout();">lets js 2022  </h3>
+
+    <script>
+        // learn25.js | JS(1)HTML.events
+        // onclick | ondblclick | onmouseover | onmouseout
+        //-------------------------------------------------
+        // onclick:
+        function onclk(){
+            alert('Lets Learn JS 2022');
+        }
+        function ondclk(){
+            alert('lets learn js on double click');
+        }
+        function onmosovr(){
+            document.getElementById('h2').style.color='red';
+        }
+        function onmoseout(){
+            document.getElementById('h3').style.color='green';
+        }
+        function onmoseout2(){
+            document.getElementById('h2').style.color='black';
+        }
+
+    </script>
+</body>
+</html>
