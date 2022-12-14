@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn26.js</title>
+    <!--<script src="learn26.js"></script> -->
+</head>
+<body oncopy="cop();">
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit a excepturi 
+        eius reprehenderit, in veritatis aperiam labore expedita quaerat, aliquam illo 
+        necessitatibus cum non quia placeat quod maiores tempora asperiores?
+    </p>
+
+    <a href="javascript:window.print()">print</a>
+    <a href="javascript:window.reload()">reload</a>
+
+    <form id="frm1">
+        <input type="text" id="inp1">
+    </form>
+    <font id="fnt1">password</font>
+    
+    <script>
+           // learn26.js | JS (2) HTML events
+        //----------------------------------------------
+        // onload - print - reload - copy - focus - blur
+        //----------------------------------------------
+        //-------------------------------------------------
+        //onload
+        onload=()=>{
+            alert('Welcome To our Site');
+        }
+        //
+        //-------------------------------------------------
+        //copy
+        function cop(){
+            alert('the text is copied');
+        }
+        //<a href="javascript:window.print()">print</a>
+        //<body oncopy="cop();">
+        //------------------------------------------------
+        //reload
+        //<a href="javascript:window.reload()">reload</a>
+        //------------------------------------------------
+        //focus - blur
+        var fForm = document.getElementById('frm1');
+           var finput = document.getElementById('inp1');
+           var ffont = document.getElementById('fnt1');
+           finput.onfocus=function(){ // for focus
+                ffont.textContent='write hard password';
+           }
+           finp.onblur=function(){ // for blur
+                ffont.textContent=''; 
+           }
+        //----------------------------------------------
+    </script>
+</body>
+</html>
